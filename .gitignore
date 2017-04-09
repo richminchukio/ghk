@@ -1,0 +1,5 @@
+/src/bin/
+/src/obj/
+/.vscode
+/imp
+nuget.org-api-key.md
