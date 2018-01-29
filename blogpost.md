@@ -11,7 +11,7 @@ I’m opting for a streamlined approach to this blog and further blogs, so let�
 
 ## Repo
 
-Setup a GitHub account. If you don’t know Git, I’ll point you to my read me makrdown (https://github.com/rjminchuk/Programming-Notes/blob/develop/md/git.md) file which contains a number of commands that may help get you started.
+Setup a GitHub account. If you don’t know Git, I’ll point you to my [read me](https://github.com/rjminchuk/Programming-Notes/blob/develop/md/git.md) makrdown file which contains a number of commands that may help get you started.
 
 Once you have a GitHub account you have to create a repository in which your open source project can live. Once your repo is setup and you can push commits to it, we can move on. Github makes this all pretty easy, so excuse the brevity, this article is about nuget and not git.
 
