@@ -1,0 +1,6 @@
+{
+   // add this section to your appsettings.*.json
+   "ghk": {
+      "connectionString": ""
+   }
+}

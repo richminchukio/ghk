@@ -1,0 +1,32 @@
+[
+   {
+      "outputFileName": "ghk.json",
+      "inputFiles": [
+         "ghk.json"
+      ]
+   },
+   {
+      "outputFileName": "views/ghk/_layout.cshtml",
+      "inputFiles": [
+         "views/ghk/_layout.cshtml"
+      ]
+   },
+   {
+      "outputFileName": "wwwroot/css/ghk.min.css",
+      "inputFiles": [
+         "wwwroot/css/ghk.css"
+      ]
+   },
+   {
+      "outputFileName": "wwwroot/js/ghk.min.js",
+      "inputFiles": [
+         "wwwroot/js/ghk.js"
+      ],
+      "minify": {
+         "enabled": true,
+         "renameLocals": true
+      },
+      "sourceMap": false
+   }
+ ]
+ 

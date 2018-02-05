@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"]</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <environment names="Development">
+        <link rel="stylesheet" href="~/css/normalize.css" />
+        <link rel="stylesheet" href="~/css/horizn.css" />
+        <link rel="stylesheet" href="~/css/ghk.css" />
+    </environment>
+    <environment names="Staging,Production">
+        <link rel="stylesheet" href="~/css/normalize.css" asp-append-version="true" />@* todo: minifiy this*@
+        <link rel="stylesheet" href="~/css/horizn.css" asp-append-version="true" />@* todo: minifiy this*@
+        <link rel="stylesheet" href="~/css/ghk.css" asp-append-version="true" />@* todo: minifiy this*@
+    </environment>
+</head>
+<body>
+    <input type="checkbox" id="horizn-article-open">
+    <div class="horizn-container">
+        <div class="horizn-leadin"></div>
+        <div class="horizn-timeline">
+            <label for="horizn-article-open">
+                <span class="circle circle-blue">&nbsp;</span>
+                <h3>2017.12.15</h3>
+            </label>
+            <p>First Post</p>
+            <label for="horizn-article-open">
+                <span class="circle circle-orange">&nbsp;</span>
+                <h3>1900.01.01</h3>
+            </label>
+            <p>&nbsp;</p>
+        </div>
+        <div class="horizn-sheet">
+            <p id="horizn-close-article-btn">
+                <label for="horizn-article-open">close</label>
+            </p>
+            <label for="horizn-article-open">
+                <span class="circle circle-blue">&nbsp;</span>
+                <h3>2017.12.15</h3>                
+            </label>
+            @RenderBody()
+        </div>
+    </div>
+
+    <environment names="Development">
+        <script src="~/js/ghk.domUtil.js"></script>
+        <script src="~/js/ghk.ajax.js"></script>
+        <script src="~/js/ghk.subscribe.js"></script>
+    </environment>
+    <environment names="Staging,Production">
+        <script src="~/js/ghk.domUtil.js" asp-append-version="true"></script>@* todo: minifiy this*@
+        <script src="~/js/ghk.ajax.js" asp-append-version="true"></script>@* todo: minifiy this*@
+        <script src="~/js/ghk.subscribe.js" asp-append-version="true"></script>@* todo: minifiy this*@
+    </environment>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

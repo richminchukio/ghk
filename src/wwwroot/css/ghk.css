@@ -1,0 +1,36 @@
+input.ghkSubscribeInput {
+   margin-left: -1rem;
+   margin-right: -1rem;
+   margin-bottom: 2rem;
+   margin-top: 0;
+   padding: 1rem .5rem 0 1rem;
+   border: 0px;
+   width: 100%;
+   background-color: transparent;
+}
+
+input.ghkSubscribeInput:focus {
+   outline: none;
+}
+
+input.ghkSubscribeInput, p.ghkSubscribeText, p.ghkSubscribeConfirmation {
+   height: 1.5rem;
+   line-height: 1.5rem;
+}
+
+p.ghkSubscribeText {
+   margin-bottom: 2rem;
+}
+
+p.ghkSubscribeConfirmation {
+   margin-bottom: 2rem;
+}
+
+p.ghkSubscribeText:hover {
+   text-decoration: none;
+   cursor: pointer;
+}
+
+.ghkHidden {
+   display: none;
+}

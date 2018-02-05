@@ -1,5 +1,9 @@
-/src/bin/
-/src/obj/
+/*/bin/
+/*/obj/
 /.vscode
-/imp
+/*/appSettings.*.json
+/src/wwwroot/*/*.min.*
+
 nuget.org-api-key.md
+
+/web/
