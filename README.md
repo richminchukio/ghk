@@ -8,4 +8,4 @@ a NuGet package. This NuGet package will power new web projects.
 
 ## ToDo
 
-- [bundle ghk framework css and js](https://docs.microsoft.com/en-us/aspnet/core/client-side/bundling-and-minification?tabs=visual-studio%2Caspnetcore2x)
+- update blog post with steps to bundle content files
