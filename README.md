@@ -10,3 +10,4 @@ a NuGet package. This NuGet package will power new web projects.
 
 - update blog post with steps to bundle content files
 - show example bundleconfig.json file
+- verified signed commit!
