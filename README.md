@@ -9,5 +9,7 @@
 
 ## ToDo
 
-- update blog post with steps to bundle content files
-- show example bundleconfig.json file 
+- write a blog post on bundling content
+   - show example bundleconfig.json file 
+   - how do you handle updates to content files?
+- Create static views for setup and installation.
