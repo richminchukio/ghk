@@ -10,7 +10,7 @@ My name is Rich Minchuk. Iâ€™m developing an open source project called GHK. Itâ
 4. Rely on mostly free tools to bring exceptional value to users.
 5. Blog about everything I learn.
 
-_I am activly developing GHK in a private repository until my initial beta release._
+_I am activly developing GHK in a private repository until my initial beta release. Progress can be seen at [richminchuk.io](https://richminchuk.io)_
 
 ## src/
 
